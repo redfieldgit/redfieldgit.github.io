@@ -1,0 +1,65 @@
+.center{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.row{flex-direction: row; gap: 10px;}
+.column{flex-direction: column; gap: 20px;}
+
+body{
+    background-color: #171717;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    height: 600px;
+}
+
+body > label{
+
+    color: greenyellow;
+    font-size: 3rem;
+
+}
+
+input{
+
+    font-size: 1.7rem;
+    border: none;
+    border-radius: 30px;
+    padding: 1%;
+    text-align: center;
+
+}
+
+body > div > label{
+
+    color: white;
+    margin-left: 30px;
+
+}
+
+button{
+
+    background-color: white;
+    font-size: 1.5rem;
+    border: none;
+    border-radius: 30px;
+    padding: 1%;
+    width: 100%;
+
+    transition-duration: 0.4s;
+
+}
+
+button:hover{
+
+    background-color: #171717;
+    color: white;
+
+}
+
+.outcome{
+
+    font-size: 2rem;
+    color: white;
+
+}
